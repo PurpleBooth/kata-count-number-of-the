@@ -1,0 +1,16 @@
+[package]
+name = "kata-count-number-of-the"
+version = "0.1.0"
+authors = ["Billie Thompson <billie@billiecodes.com>"]
+
+
+[lib]
+name = "countthe"
+path = "src/lib.rs"
+
+[[bin]]
+name = "countthe"
+path = "src/bin.rs"
+
+[dependencies]
+regex = "0.2.6"
